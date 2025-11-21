@@ -1,7 +1,6 @@
 # AI-Medical-Diagnosis
 
-Internship project for Edunet Foundation — a small collection of machine learning notebooks,
-trained models, and a simple application for exploring automated medical-diagnosis predictions.
+Internship project for Edunet Foundation — a small collection of machine learning notebooks,trained models, and a simple application for exploring automated medical-diagnosis predictions.
 
 This repository focuses on predicting/identifying several conditions using classic ML models:
 - Diabetes
@@ -21,8 +20,8 @@ This repository focuses on predicting/identifying several conditions using class
 1. Create and activate a virtual environment:
 
 ```powershell
-python -m venv .venv
-; .\.venv\Scripts\Activate.ps1
+python -m venv .venv; 
+.\.venv\Scripts\Activate.ps1
 ```
 
 2. Install common dependencies (add more if your notebooks require them):
@@ -55,20 +54,7 @@ Note: `app.py` expects the trained model files to be present in `Medical diagnos
 	- `survey lung cancer.csv` and preprocessed variants
 - Trained models are under `Medical diagnosis using AI/Models/`, e.g. `diabetes_model.sav`.
 
-**Recommended improvements / next steps**
-- Add a `requirements.txt` or `environment.yml` for reproducible installs.
-- Add README files inside `Medical diagnosis using AI/` describing each notebook and model.
-- Create unit/integration tests for `app.py` endpoints and model loading.
-
-**License & Contact**
-- This project currently has no license specified. Add a `LICENSE` file if you want to
-	permit reuse.
-- Author / Contact: Ganesh S — include an email or GitHub link here if you want collaborators to reach out.
 
 ---
 
-*If you'd like, I can:*
-- add a `requirements.txt` generated from the notebooks,
-- create a short README inside `Medical diagnosis using AI/` with per-notebook descriptions,
-- or update `app.py` to include a simple README-style help output. Tell me which you'd prefer.
 
