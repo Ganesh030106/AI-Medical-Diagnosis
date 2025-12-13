@@ -29,6 +29,7 @@ python -m venv .venv;
 ```powershell
 pip install -U pip
 pip install numpy pandas scikit-learn flask joblib matplotlib seaborn jupyter
+pip install -r requirements.txt
 ```
 
 3. Run the app:
